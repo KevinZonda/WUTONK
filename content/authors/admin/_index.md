@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: WUTONK (梧桐)
 
 # Name pronunciation (optional)
 name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Tong
+last_name: Wu
 
 # Status emoji
-status:
-  icon: ☕️
+#status:
+#  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,12 +20,14 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Guangzhou Institute of Railway Technology
+    url: https://www.gtxy.cn/
+  - name: Home University (HMU)
+    url: https://hmu.ac.cn/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
@@ -34,78 +36,60 @@ profiles:
     url: 'mailto:your-email@example.com'
     label: E-mail Me
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+    url: https://twitter.com/WUTONK386
   - icon: brands/github
-    url: https://github.com/gcushen
-  - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://github.com/WUTONK
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://scholar.google.com/scholar?q=WUTONK
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/orcid-search/search?searchQuery=WUTONK
 
 interests:
+  - EE
   - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Empirical Software Engineer
+
 
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: PhD Lie Flat
+    institution: Home University
+    date_start: 2023-01-01
+    date_end: 2022-12-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      I lie flat during my PhD.
+  - area: MSc Lie Flat
+    institution: Home University
+    date_start: 2022-12-30
+    date_end: 2022-12-28
     summary: |
-      GPA: 3.8/4.0
+      GPA: 4.0/4.0
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+      - Introduction to Advanced Lie Flat
+      - Lie Flat Research
+
+      Cross-registered at Wild Chicken University
+  - area: BSc Lie Flat
+    institution: Home University
+    date_start: 2022-12-27
+    date_end: 2022-12-25
     summary: |
-      GPA: 3.4/4.0
+      GPA: 4.0/4.0
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Introduction to Lie Flat
+      - Professional Practice in Lie Flat
+      - Lie Flat in Real-life
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
+  - position: Admission Team
+    company_name: College of St. Chi College, Home University
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
+    date_start: 2022-12-30
     date_end: ''
     summary: |2-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Admission in HMU
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -142,45 +126,19 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
 ## About Me
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+非常喜欢音乐，听的风格很杂很多（一般是一段时间突然就喜欢某种风格）从下方的表格就可见一斑…从电子-流行-古典均有涉及
+
+心情不好的时候会听后摇和金属，晚上睡觉喜欢听合成器和纯音乐催眠。
+
+非常喜欢开车所以在家里配了一套赛车模拟器，跑的最多的是首都高，喜欢一边跑一边听phonk,trance和citypop
+
+因为喜欢用金属和phonk提神还形成了一听金属就想睡的奇怪反射
+
+一直想学编曲，但是花了2500买了电子琴和MIDI键盘后就吃灰了
