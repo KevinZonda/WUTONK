@@ -3,7 +3,7 @@
 title: WUTONK (梧桐)
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+# name_pronunciation: Chien Shiung Wu
 
 # Full name (for SEO)
 first_name: Tong
@@ -32,9 +32,9 @@ organizations:
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:your-email@example.com'
-    label: E-mail Me
+#  - icon: at-symbol
+#    url: 'mailto:your-email@example.com'
+#    label: E-mail Me
   - icon: brands/x
     url: https://twitter.com/WUTONK386
   - icon: brands/github
@@ -100,7 +100,7 @@ skills:
         description: ''
         percent: 80
         icon: code-bracket
-      - name: Data Science
+      - name: JavaScript/TypeScript
         description: ''
         percent: 100
         icon: chart-bar
@@ -112,7 +112,7 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking
+      - name: Music
         description: ''
         percent: 60
         icon: person-simple-walk
@@ -120,7 +120,7 @@ skills:
         description: ''
         percent: 100
         icon: cat
-      - name: Photography
+      - name: Driving
         description: ''
         percent: 80
         icon: camera
